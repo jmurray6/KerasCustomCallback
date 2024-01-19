@@ -104,8 +104,6 @@ def select(attr, old, new):
         plot.line(x=list(range(1, df.iloc[[new[0]][0]]["epochs"] + 1)), y=df.iloc[[new[0]][0]]["loss_list"], legend_label=str("loss_list"), color="red", line_width=5)
     supp_col.children = [plot]
 
-
-
 source.selected.on_change("indices", select)
 
 update()
