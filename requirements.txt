@@ -1,0 +1,5 @@
+jupyter
+tensorflow
+psycopg2
+pandas
+bokeh
